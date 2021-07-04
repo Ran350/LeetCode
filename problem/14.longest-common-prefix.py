@@ -27,7 +27,7 @@ class Solution:
             l = [str[:i+1] for str in strs]
 
             if(not isSameElement(l)):
-                return l[0][:i]
+                return shortest_element[:i]
 
         return shortest_element
 
